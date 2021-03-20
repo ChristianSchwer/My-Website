@@ -1,0 +1,78 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-container {
+    background: #fff5da;
+    padding: 3rem calc((100vw - 1300px) / 2);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 800px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 1.4;
+    padding: 1rem 2rem;
+}
+
+.column-left > h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.column-left > p {
+    margin-top: 16px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column-right {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passions-container {
+    background: rgb(217, 254, 255);
+}
+
+.shop-container {
+    background-color: #fff5da;
+}
+
+@media screen and (max-width: 960px) {
+    .column-left > h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .home-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px;
+    }
+
+    .column-left > h1 {
+        font-size: 45px;
+        align-self: center;
+        margin-top: -80px;
+    }
+
+    .column-left > p {
+        font-size: 16px;
+    }
+}
