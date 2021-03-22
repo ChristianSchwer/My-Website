@@ -12,10 +12,12 @@ import Programming from './components/pages/Programming.js';
 import Plants from './components/pages/Plants';
 import Smith from './components/pages/Smith';
 import Travel from './components/pages/Travel';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />

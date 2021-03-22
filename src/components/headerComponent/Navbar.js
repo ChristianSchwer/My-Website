@@ -45,7 +45,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link className='nav-links instagram'
-                            to='/'
+                            to={'//www.instagram.com/schwer_christian/'}
                             target='_blank'
                             aria-label='Instagram'
                             onClick={closeMobileMenu}
@@ -53,7 +53,7 @@ function Navbar() {
                                 <i className='fab fa-instagram'></i>
                             </Link>
                             <Link className='nav-links github'
-                            to='/'
+                            to={'//github.com/ChristianSchwer'}
                             target='_blank'
                             aria-label='Github'
                             onClick={closeMobileMenu}

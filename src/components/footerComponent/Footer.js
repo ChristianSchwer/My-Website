@@ -33,8 +33,16 @@ function footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Github</Link>
+            <Link 
+              to={'//www.instagram.com/schwer_christian/'}
+              target='_blank'>
+                Instagram
+            </Link>
+            <Link 
+              to={'//github.com/ChristianSchwer'}
+              target='_blank'>
+                Github
+            </Link>
           </div>
         </div>
       </div>
@@ -48,14 +56,14 @@ function footer() {
           <small className='website-rights'>TRVL © 2021</small>
           <div className='social-icons'>
             <Link className='social-icon-link instagram'
-              to='/'
+              to={'//www.instagram.com/schwer_christian/'}
               target='_blank'
               aria-label='Instagram'
               >
                 <i className='fab fa-instagram'></i>
             </Link>
             <Link className='social-icon-link github'
-              to='/'
+              to={'//github.com/ChristianSchwer'}
               target='_blank'
               aria-label='Github'
               >
