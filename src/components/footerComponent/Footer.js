@@ -7,53 +7,53 @@ function footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join for free!
+          Contact me
         </p>
         <p className='footer-subscription-text'>
-          unscrup any time
+          or Want to tell me something?
         </p>
-        <div className='input-areas'>
+        <div className='footer-input-area'>
           <form>
-            <input 
-              type='email' 
-              name='email' 
-              placeholder='Your Email' 
-              className='footer-input' 
-            />
+            <div>
+              <label className='footer-label' for='name'> Name </label>
+              <input 
+                id='name'
+                type='text' 
+                name='name' 
+                placeholder='Your Name' 
+                className='footer-input' 
+              />
+            </div>
+            <div>
+              <label className='footer-label' for='email'> E-Mail </label>
+              <input 
+                id='email'
+                type='email' 
+                name='email' 
+                placeholder='Your Email' 
+                className='footer-input' 
+              />
+            </div>
+            <div>
+              <label className='footer-label' for='message'> Massage </label>
+              <textarea 
+                id='message'
+                rows='6' 
+                name='message' 
+                placeholder='Your Message' 
+                className='footer-input' 
+              />
+            </div>
           </form>
         </div>
       </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Terms of Service</Link>
-            <Link to='/'>Contact</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link 
-              to={'//www.instagram.com/schwer_christian/'}
-              target='_blank'>
-                Instagram
-            </Link>
-            <Link 
-              to={'//github.com/ChristianSchwer'}
-              target='_blank'>
-                Github
-            </Link>
-          </div>
-        </div>
-      </div>
-      <section className='social-media'>
-        <div className='social-media-wrap'>
+      <section className='footer-links'>
+        <div className='footer-links-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               TRVL <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2021</small>
           <div className='social-icons'>
             <Link className='social-icon-link instagram'
               to={'//www.instagram.com/schwer_christian/'}
@@ -68,6 +68,14 @@ function footer() {
               aria-label='Github'
               >
                 <i className='fab fa-github'></i>
+            </Link>
+          </div>
+          <div className='footer-links-item'>
+            <Link to='/' className='footer-link'>
+              Imprint
+            </Link>
+            <Link to='/' className='footer-link'>
+              Privacy
             </Link>
           </div>
         </div>
