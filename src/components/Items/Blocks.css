@@ -1,25 +1,5 @@
-.app {
-  text-align: center;
-  height: 800px;
-}
-
 button {
   padding: 8px;
-}
-
-.container {
-  padding: 40px;
-  margin-top: 200px;
-  min-height: 200px;
-}
-
-.item {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  background-color: fff;
-  border-radius: 8px;
-  box-shadow: rgb(0,0,0,0.2) 0px 8px 24px;
 }
 
 .blocks__container {
@@ -30,7 +10,6 @@ button {
 
 .blocks__items {
   display: grid;
-  flex-flow: row;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
 }

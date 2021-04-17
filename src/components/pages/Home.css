@@ -45,8 +45,12 @@ img {
     background: rgb(217, 254, 255);
 }
 
+.projects-container {
+    background: #fff5da;
+}
+
 .shop-container {
-    background-color: #fff5da;
+    background: rgb(217, 254, 255);
 }
 
 @media screen and (max-width: 960px) {

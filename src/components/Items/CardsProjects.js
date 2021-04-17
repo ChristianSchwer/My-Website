@@ -1,43 +1,31 @@
 import React from 'react';
-import CardItem from './CardItem';
+import CardProjectItem from './CardProjectItem';
 import './CardsProjects.css';
 
-function Cards() {
+function CardsProjects() {
     return (
-        <div className='cards'>
+        <div className='cardsp'>
             <h1>Projects</h1>
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
-                    <ul className='cards__items'>
-                        <CardItem 
+            <div className='cardsp__container'>
+                <div className='cardsp__wrapper'>
+                    <ul className='cardsp__items'>
+                        <CardProjectItem 
                             src='images/img-travel-1.jpg'
-                            label='Website'
-                            path='/programming'
-                            alt='Website'
+                            label='Kitchen Knife'
+                            path='/smith'
+                            alt='KitchenKnife'
                         />
-                        <CardItem 
+                        <CardProjectItem 
                             src='images/img-5.jpg'
                             label='Game'
                             path='/programming'
                             alt='Game'
                         />
-                        <CardItem
-                            src='images/img-6.jpg'
-                            label='Another Website'
-                            path='/programming'
-                            alt='AnotherWebsite'
-                        />
-                        <CardItem
-                            src='images/img-9.jpg'
+                        <CardProjectItem
+                            src='images/img-home.jpg'
                             label='Kiwi Bonsai'
                             path='/plants'
                             alt='KiwiBonsai'
-                        />
-                        <CardItem
-                            src='images/img-home.jpg'
-                            label='Kitchen Knife'
-                            path='/smith'
-                            alt='KitchenKnife'
                         />
                     </ul>
                 </div>
@@ -46,4 +34,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default CardsProjects

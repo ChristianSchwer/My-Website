@@ -5,9 +5,9 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <span>
+            <h1>
                 <b>Shop </b>(In Production)
-            </span>
+            </h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
