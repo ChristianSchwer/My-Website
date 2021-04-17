@@ -60,6 +60,13 @@ function Navbar() {
                             >
                                 <i className='fab fa-github'></i>
                             </Link>
+                            <Link className='nav-links puzzle'
+                            to='/'
+                            aria-label='Puzzle'
+                            onClick={closeMobileMenu}
+                            >
+                                <i class="fas fa-puzzle-piece"><sub className='puzzle-number'>2</sub></i>
+                            </Link>
                         </li>
                     </ul>
                 </div>

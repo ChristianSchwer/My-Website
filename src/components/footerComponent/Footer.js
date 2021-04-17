@@ -69,6 +69,12 @@ function footer() {
               >
                 <i className='fab fa-github'></i>
             </Link>
+            <Link className='social-icon-link puzzle'
+              to='/'
+              aria-label='Puzzle'
+              >
+                <i class="fas fa-puzzle-piece"><sub className='puzzle-number'>2</sub></i>
+            </Link>
           </div>
           <div className='footer-links-item'>
             <Link to='/' className='footer-link'>
